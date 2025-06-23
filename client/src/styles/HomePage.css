@@ -1,0 +1,65 @@
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-title {
+  font-family: 'Georgia', serif; /* Change the font family */
+  font-size: 3em; /* Increase the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #0c0c0c; /* Set the text color */
+  background-color: #b1c5da; /* Set the background color */
+  padding: 20px; /* Add padding around the text */
+  border-radius: 10px; /* Add rounded corners */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for a 3D effect */
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+.art-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.artwork {
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ded2d2; /* Light background color */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artwork:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.artwork img {
+  width: 150px;
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.artwork h3, .artwork p {
+  margin: 10px 0;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.view-more:hover {
+  background-color: #0056b3;
+}

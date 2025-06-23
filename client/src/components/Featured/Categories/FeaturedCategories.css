@@ -1,0 +1,132 @@
+/* 
+.featured__categories__container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    min-height: 25rem;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.featured__categories{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.featured__categories__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featured__header__big {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.featured__header__small {
+    margin: auto 20px;
+}
+
+.featured__categories__header__line {
+    width: 200px;
+    height: 6px;
+    background-color: #FFE26E;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.featured__categories__card__container {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+} */
+.featured__categories__container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    min-height: 25rem;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.featured__categories{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.featured__categories__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featured__header__big {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.featured__header__small {
+    margin: auto 20px;
+}
+
+.featured__categories__header__line {
+    width: 200px;
+    height: 6px;
+    background-color: #FFE26E;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.featured__categories__card__container {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.buy__now__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buy__now__button {
+    background-color: #FFE26E;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buy__now__button:hover {
+    background-color: #FFD700;
+}
