@@ -1,4 +1,5 @@
 import { useState, useEffect, useContext, createContext } from "react";
+const API_BASE_URL = process.env.REACT_APP_BACKEND_URL;
 
 const AuthContext = createContext();
 
