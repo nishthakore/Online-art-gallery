@@ -116,6 +116,8 @@ import "react-toastify/dist/ReactToastify.css";
 import toast from "react-hot-toast";
 import "../../styles/Register.css"; // Import the CSS file
 
+const API_BASE_URL = process.env.REACT_APP_BACKEND_URL;
+
 export default function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
