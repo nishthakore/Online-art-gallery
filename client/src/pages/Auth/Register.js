@@ -130,7 +130,7 @@ export default function Register() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:8080/api/v1/auth/register",
+        `${API_BASE_URL}/auth/register`,
         {
           name,
           email,
