@@ -15,7 +15,11 @@ connectDB();
 const app = express();
 
 //middelwares
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "https://online-art-gallery.vercel.app",
+  credentials: true,
+}));
 app.use(express.json());
 app.use(morgan("dev"));
 
